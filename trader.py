@@ -22,8 +22,14 @@ cerebro.adddata(data)
 
 cerebro.addstrategy(TestStrategy)
 
+# modifying order size 
+cerebro.addsizer(bt.sizers.FixedSize, stake = 1000)
+
 print('Starting Portfolio Value: %.2f' % cerebro.broker.getvalue())
 
 cerebro.run()
 
 print('Final Portfolio Value: %.2f' % cerebro.broker.getvalue())
+
+# plotting 
+cerebro.plot()
