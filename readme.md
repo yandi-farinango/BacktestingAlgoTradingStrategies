@@ -15,3 +15,4 @@ Test strategy was implemented on historical ORCL price data from 2000-01-03 &nbs
 ![Alt text](Data/Figure.png)
 
 
+
