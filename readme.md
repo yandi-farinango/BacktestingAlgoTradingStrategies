@@ -12,6 +12,5 @@
 ### Strategy Performance 
 Test strategy was implemented on historical Oracle price data from 2000-01-03 &nbsp;&nbsp;-&nbsp;&nbsp; 2000-12-29
 
-
 ![Alt text](Data/Figure.png)
 
